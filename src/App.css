@@ -1,0 +1,105 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page-content {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.page-header {
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.page-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+}
+
+.content-section {
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.content-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.content-section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.content-section ul {
+  margin-left: 20px;
+  color: #666;
+}
+
+.content-section li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.selection-info {
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.selection-info p {
+  margin: 0;
+  color: #333;
+}
+
+.open-button {
+  padding: 12px 24px;
+  background-color: #FFCE22;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #333;
+  transition: opacity 0.2s;
+  margin-top: 15px;
+}
+
+.open-button:hover {
+  opacity: 0.9;
+}
+
+.open-button:active {
+  opacity: 0.8;
+}
+

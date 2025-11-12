@@ -1,0 +1,134 @@
+.page-selection-list-container {
+  background-color: #E5E5E5;
+  padding: 20px;
+  border: 2px dashed #9333EA;
+  border-radius: 8px;
+  min-height: 500px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.diamond-icon {
+  color: #9333EA;
+  font-size: 12px;
+}
+
+.list-content {
+  display: flex;
+  gap: 20px;
+}
+
+.list-left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 40px;
+}
+
+.list-right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.all-pages-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 4px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.all-pages-text {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-custom {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-empty {
+  background-color: #FFFFFF;
+  border-color: #CCCCCC;
+}
+
+.checkbox-gray-check {
+  background-color: #FFFFFF;
+  border-color: #CCCCCC;
+}
+
+.checkbox-blue {
+  background-color: #0066CC;
+  border-color: #0066CC;
+}
+
+.checkbox-blue::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.gray-checkmark {
+  color: #999999;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.checkbox-custom:hover {
+  border-color: #999999;
+}
+
